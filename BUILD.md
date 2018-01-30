@@ -167,3 +167,15 @@ OR
 ```shell
 .$ java -jar Mars.jar sm johncena.s pa argument
 ```
+
+## Haskell
+```shell
+$ ghc -o johncena johncena.hs
+$ ./johncena
+```
+
+OR
+
+```shell
+$ runghc johncena.hs
+```
