@@ -1,6 +1,6 @@
 <?php
 // Build and run
-// go run johncena.go
+// php johncena.php
 
 while(true){
 	print("\n");
