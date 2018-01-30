@@ -11,6 +11,7 @@ The `johncena` command is used to output "" forever. :repeat: cus you can't see 
 The `johncena` command outputs "" forever.
 
 ![johncena](https://media.giphy.com/media/26n6NdWgS7d8vQAGQ/giphy.gif)
+![johncena](https://media.giphy.com/media/l1IBilmNt7heGEpSE/giphy.gif)
 
 ## John Cena Syntax
 
@@ -31,6 +32,7 @@ johncena
 .
 .
 ```
+![johncena](https://media.giphy.com/media/IgsXOXGPxfT3O/giphy.gif)
 
 ## Dangerous John Cena
 
@@ -48,6 +50,7 @@ $ du -h johncena.txt
 
 I ran the command only for __10 Seconds__. And It consumed almost 1 GB. :boom:
 
+![johncena](https://media.giphy.com/media/xTiTnoHt2NwerFMsCI/giphy.gif)
 
 You tell me what happens. :stuck_out_tongue_winking_eye:
 
