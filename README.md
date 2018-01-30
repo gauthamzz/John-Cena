@@ -50,3 +50,5 @@ I ran the command only for __10 Seconds__. And It consumed almost 1 GB. :boom:
 
 
 You tell me what happens. :stuck_out_tongue_winking_eye:
+
+Credits to [Mubaris](https://github.com/mubaris) and his [yes](https://github.com/mubaris/yes).
