@@ -2,7 +2,9 @@
 
 ## About John Cena
 
-The `johncena` command is used to output "" forever. :repeat: cus you can't see John Cena.
+The `johncena` command is used to output "" forever. :repeat:
+Yes, literally nothing (well `/n`).
+Why? cus you can't see John Cena. But he is Dangerous.
 
 ![johncena](https://media.giphy.com/media/l0HU20BZ6LbSEITza/giphy.gif)
 
@@ -36,6 +38,8 @@ johncena
 
 ## Dangerous John Cena
 
+![johncena](https://media.giphy.com/media/xTiTnoHt2NwerFMsCI/giphy.gif)
+
 ### Redirecting output to a file
 
 `johncena` can be dangerous also. If you redirect the output stream of `johncena` to a file, it will eat up your storage space. :bomb:
@@ -50,7 +54,7 @@ $ du -h johncena.txt
 
 I ran the command only for __10 Seconds__. And It consumed almost 1 GB. :boom:
 
-![johncena](https://media.giphy.com/media/xTiTnoHt2NwerFMsCI/giphy.gif)
+
 
 You tell me what happens. :stuck_out_tongue_winking_eye:
 
