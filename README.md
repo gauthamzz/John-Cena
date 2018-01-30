@@ -3,7 +3,9 @@
 ## About John Cena
 
 The `johncena` command is used to output "" forever. :repeat:
-Yes, literally nothing (well `/n`).
+
+Yes, it prints NOTHING (well `/n`).
+
 Why? cus you can't see John Cena. But he is Dangerous.
 
 ![johncena](https://media.giphy.com/media/l0HU20BZ6LbSEITza/giphy.gif)
@@ -13,7 +15,9 @@ Why? cus you can't see John Cena. But he is Dangerous.
 The `johncena` command outputs "" forever.
 
 ![johncena](https://media.giphy.com/media/26n6NdWgS7d8vQAGQ/giphy.gif)
-![johncena](https://media.giphy.com/media/l1IBilmNt7heGEpSE/giphy.gif)
+
+No, YOU CANT SEE ANYTHING. How the heck will you SEE John Cena.
+
 
 ## John Cena Syntax
 
