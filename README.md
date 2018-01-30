@@ -32,7 +32,7 @@ johncena
 .
 .
 ```
-![johncena](https://media.giphy.com/media/IgsXOXGPxfT3O/giphy.gif)
+![johncena](https://media.giphy.com/media/nR4L10XlJcSeQ/giphy.gif)
 
 ## Dangerous John Cena
 
