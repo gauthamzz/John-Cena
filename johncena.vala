@@ -2,13 +2,13 @@
 // How to build and execute
 //
 // Build:
-// $ valac -o john-cena john-cena.vala
+// $ valac -o johncena johncena.vala
 //
-// option 1 - output 'john-cena'
-// ./john-cena
+// option 1 - output 'johncena'
+// ./johncena
 
 
-class john-cena {
+class johncena {
     public static int main(string[] args) {
 			while (true) {
 				stdout.printf("\n");

@@ -3,8 +3,8 @@
 ///////////////////////////////////
 // How to execute
 //
-// option 1 - output 'john-cena'
-// ./john-cena.groovy
+// option 1 - output 'johncena'
+// ./johncena.groovy
 //
 
 

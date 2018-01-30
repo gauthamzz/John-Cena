@@ -6,9 +6,9 @@
 // How to build and execute
 //
 // Build:
-// g++ -o john-cena --std=c++11 john-cena.cpp
+// g++ -o johncena --std=c++11 johncena.cpp
 //
-// ./john-cena
+// ./johncena
 
 int main(int argc, char* argv[]) {
     std::string output;

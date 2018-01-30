@@ -3,7 +3,7 @@
 ##########################
 # How to build and execute
 #
-# python john-cena.py
+# python johncena.py
 #
 
 import sys

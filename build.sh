@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Build script for github.com/gauthamzz/john-cena
+# Build script for github.com/gauthamzz/johncena
 # -------------------------------------
 INSTALLED() {
 	local loc;
@@ -14,7 +14,7 @@ INSTALLED() {
 BUILT() {
 	# Force it to be consider built.
 	case "$1" in
-		"john-cena"|"john-cena"|"true"|"TRUE"|1)
+		"johncena"|"johncena"|"true"|"TRUE"|1)
 			BUILD_LASTEXIT=0
 			BUILD_COMPLETE=true
 			BUILD_EXECUTED=true
@@ -166,7 +166,7 @@ mkdir -p "${OBJ}" &>/dev/null
 
 # -------------------------------------
 # AppleScript
-BUILD-START "AppleScript" "john-cena.applescript"
+BUILD-START "AppleScript" "johncena.applescript"
 	case "$(BUILD-FIND osascript)" in
 		osascript)
 			if INTERPRETED-COPY; then
@@ -183,7 +183,7 @@ BUILD-END
 
 # -------------------------------------
 # Awk
-BUILD-START "Awk" "john-cena.awk"
+BUILD-START "Awk" "johncena.awk"
 	case "$(BUILD-FIND awk)" in
 		awk)
 			if INTERPRETED-COPY; then
@@ -200,7 +200,7 @@ BUILD-END
 
 # -------------------------------------
 # Brainfuck
-BUILD-START "Brainfuck" "john-cena.bf"
+BUILD-START "Brainfuck" "johncena.bf"
 	case "$(BUILD-FIND brainfuck)" in
 		brainfuck)
 			if INTERPRETED-COPY; then
@@ -217,7 +217,7 @@ BUILD-END
 
 # -------------------------------------
 # Brainfuck (Custom)
-BUILD-START "Brainfuck (Args)" "john-cena.custom.bf"
+BUILD-START "Brainfuck (Args)" "johncena.custom.bf"
 	case "$(BUILD-FIND brainfuck)" in
 		brainfuck)
 			if INTERPRETED-COPY; then
@@ -234,7 +234,7 @@ BUILD-END
 
 # -------------------------------------
 # C
-BUILD-START "C" "john-cena.c"
+BUILD-START "C" "johncena.c"
 	case "$(BUILD-FIND clang gcc)" in
 		clang)
 			BUILD-RUN clang -O3 -o "${OUT_FILE}" "${SRC_FILE}"
@@ -248,7 +248,7 @@ BUILD-END
 
 # -------------------------------------
 # C++
-BUILD-START "C++" "john-cena.cpp"
+BUILD-START "C++" "johncena.cpp"
 	case "$(BUILD-FIND clang++ g++)" in
 		clang++)
 			BUILD-RUN clang++ -O3 -o "${OUT_FILE}" "${SRC_FILE}"
@@ -262,7 +262,7 @@ BUILD-END
 
 # -------------------------------------
 # C#
-BUILD-START "C#" "john-cena.cs"
+BUILD-START "C#" "johncena.cs"
 	case "$(BUILD-FIND mcs)" in
 		mcs)
 			BUILD-RUN mcs -optimize+ -out:"${OBJ}/${OUT_FILENAME}.exe" "${SRC_FILE}"
@@ -274,10 +274,10 @@ BUILD-END
 
 # -------------------------------------
 # D
-BUILD-START "D" "john-cena.d"
+BUILD-START "D" "johncena.d"
 	case "$(BUILD-FIND rdmd)" in
 		rdmd)
-			rdmd --build-only -of"${BIN}/john-cena-d" john-cena.d
+			rdmd --build-only -of"${BIN}/johncena-d" johncena.d
 			BUILT true
 			;;
 	esac
@@ -285,13 +285,13 @@ BUILD-END
 
 # -------------------------------------
 # Erlang
-BUILD-START "Erlang" "john-cena.escript"
+BUILD-START "Erlang" "johncena.escript"
 	BUILD-FAIL "TODO BUILD SCRIPT"
 BUILD-END
 
 # -------------------------------------
 # Fish
-BUILD-START "Fish" "john-cena.fish"
+BUILD-START "Fish" "johncena.fish"
 	case "$(BUILD-FIND fish)" in
 		fish)
 			if INTERPRETED-COPY; then
@@ -308,7 +308,7 @@ BUILD-END
 
 # -------------------------------------
 # Go
-BUILD-START "Go" "john-cena.go"
+BUILD-START "Go" "johncena.go"
 	case "$(BUILD-FIND go)" in
 		go)
 			if INTERPRETED-COPY; then
@@ -325,7 +325,7 @@ BUILD-END
 
 # -------------------------------------
 # Haskell
-BUILD-START "Haskell" "john-cena.hs"
+BUILD-START "Haskell" "johncena.hs"
 	case "$(BUILD-FIND ghc)" in
 		ghc)
 			BUILD-RUN ghc "-outputdir ${OBJ} -dynamic -o ${OUT_FILE} ${SRC_FILE}"
@@ -335,7 +335,7 @@ BUILD-END
 
 # -------------------------------------
 # IL
-BUILD-START "IL" "john-cena.il"
+BUILD-START "IL" "johncena.il"
 	case "$(BUILD-FIND ilasm)" in
 		ilasm)
 			BUILD-RUN ilasm /out:"${OBJ}/${OUT_FILENAME}.exe" "${SRC_FILE}"
@@ -347,11 +347,11 @@ BUILD-END
 
 # -------------------------------------
 # Java
-BUILD-START "Java" "john-cena.java"
+BUILD-START "Java" "johncena.java"
 	case "$(BUILD-FIND javac)" in
 		javac)
 			BUILD-RUN javac -d "${OBJ}" "${SRC_FILE}"
-			INTERPRETED-WRAP java -cp "${OBJ}" "john-cena" '{$@}' > "${OUT_FILE}"
+			INTERPRETED-WRAP java -cp "${OBJ}" "johncena" '{$@}' > "${OUT_FILE}"
 			chmod +x "${OUT_FILE}"
 			;;
 	esac
@@ -359,7 +359,7 @@ BUILD-END
 
 # -------------------------------------
 # Groovy
-BUILD-START "Groovy" "john-cena.groovy"
+BUILD-START "Groovy" "johncena.groovy"
 	case "$(BUILD-FIND groovy)" in
 		groovy)
 			if INTERPRETED-COPY; then
@@ -376,7 +376,7 @@ BUILD-END
 
 # -------------------------------------
 # JavaScript
-BUILD-START "JavaScript" "john-cena.js"
+BUILD-START "JavaScript" "johncena.js"
 	case "$(BUILD-FIND node)" in
 		node)
 			if INTERPRETED-COPY; then
@@ -393,19 +393,19 @@ BUILD-END
 
 # -------------------------------------
 # Lisp
-BUILD-START "Lisp" "john-cena.lisp"
+BUILD-START "Lisp" "johncena.lisp"
 	BUILD-FAIL "TODO BUILD SCRIPT"
 BUILD-END
 
 # -------------------------------------
 # Lua
-BUILD-START "Lua" "john-cena.lua"
+BUILD-START "Lua" "johncena.lua"
 	BUILD-FAIL "TODO BUILD SCRIPT"
 BUILD-END
 
 # -------------------------------------
 # Objective-C
-BUILD-START "Objective-C" "john-cena.m"
+BUILD-START "Objective-C" "johncena.m"
 	case "$(BUILD-FIND clang)" in
 		clang)
 			BUILD-RUN clang -O3 -framework Foundation -o "${OUT_FILE}" "${SRC_FILE}"
@@ -415,7 +415,7 @@ BUILD-END
 
 # -------------------------------------
 # OCaml
-BUILD-START "OCaml" "john-cena.ml"
+BUILD-START "OCaml" "johncena.ml"
 	case "$(BUILD-FIND ocaml)" in
 		ocaml)
 			BASE_FILENAME="${SRC_FILENAME%%.*}"
@@ -427,7 +427,7 @@ BUILD-END
 
 # -------------------------------------
 # PHP
-BUILD-START "PHP" "john-cena.php"
+BUILD-START "PHP" "johncena.php"
 	case "$(BUILD-FIND php)" in
 		php)
 			if INTERPRETED-COPY; then
@@ -444,7 +444,7 @@ BUILD-END
 
 # -------------------------------------
 # Perl
-BUILD-START "Perl" "john-cena.pl"
+BUILD-START "Perl" "johncena.pl"
 	case "$(BUILD-FIND perl)" in
 		perl)
 			if INTERPRETED-COPY; then
@@ -461,7 +461,7 @@ BUILD-END
 
 # -------------------------------------
 # Python
-BUILD-START "Python" "john-cena.py"
+BUILD-START "Python" "johncena.py"
 	case "$(BUILD-FIND python)" in
 		python)
 			if INTERPRETED-COPY; then
@@ -478,7 +478,7 @@ BUILD-END
 
 # -------------------------------------
 # Ruby
-BUILD-START "Ruby" "john-cena.rb"
+BUILD-START "Ruby" "johncena.rb"
 	case "$(BUILD-FIND ruby)" in
 		ruby)
 			if INTERPRETED-COPY; then
@@ -495,7 +495,7 @@ BUILD-END
 
 # -------------------------------------
 # Rust
-BUILD-START "Rust" "john-cena.rs"
+BUILD-START "Rust" "johncena.rs"
 	case "$(BUILD-FIND rustc)" in
 		rustc)
 			BUILD-RUN rustc -o "${OUT_FILE}" "${SRC_FILE}"
@@ -505,13 +505,13 @@ BUILD-END
 
 # -------------------------------------
 # Scala
-BUILD-START "Scala" "john-cena.scala"
+BUILD-START "Scala" "johncena.scala"
 	BUILD-FAIL "TODO BUILD SCRIPT"
 BUILD-END
 
 # -------------------------------------
 # Shell
-BUILD-START "Shell" "john-cena.sh"
+BUILD-START "Shell" "johncena.sh"
 	case "$(BUILD-FIND sh)" in
 		sh)
 			if INTERPRETED-COPY; then
@@ -528,7 +528,7 @@ BUILD-END
 
 # -------------------------------------
 # Swift
-BUILD-START "Swift" "john-cena.swift"
+BUILD-START "Swift" "johncena.swift"
 	case "$(BUILD-FIND swift)" in
 		swift)
 			if INTERPRETED-COPY; then
@@ -545,7 +545,7 @@ BUILD-END
 
 # -------------------------------------
 # Vala
-BUILD-START "Vala" "john-cena.vala"
+BUILD-START "Vala" "johncena.vala"
 	case "$(BUILD-FIND valac)" in
 		valac)
 			BUILD-RUN valac -o "${OUT_FILE}" "${SRC_FILE}"
@@ -555,7 +555,7 @@ BUILD-END
 
 # -------------------------------------
 # VB
-BUILD-START "VB" "john-cena.vb"
+BUILD-START "VB" "johncena.vb"
 	case "$(BUILD-FIND vbnc)" in
 		vbnc)
 			BUILD-RUN vbnc -optimize+ -out:"${OBJ}/${OUT_FILENAME}.exe" "${SRC_FILE}"
@@ -567,7 +567,7 @@ BUILD-END
 
 # -------------------------------------
 # Guile
-BUILD-START "Guile" "john-cena.guile"
+BUILD-START "Guile" "johncena.guile"
 	case "$(BUILD-FIND guile)" in
 		guile)
 			if INTERPRETED-COPY; then

@@ -2,10 +2,10 @@
  	How to build and execute 
  	
  	Build:
-	ocamlopt -o john-cena john-cena.ml
+	ocamlopt -o johncena johncena.ml
 	
 
-	./john-cena
+	./johncena
 
 *)
 

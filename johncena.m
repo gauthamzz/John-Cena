@@ -3,9 +3,9 @@
 // How to build and execute
 //
 // Build:
-// clang -framework Foundation -o john-cena john-cena.m
+// clang -framework Foundation -o johncena johncena.m
 //
-// ./john-cena
+// ./johncena
 //
 
 int main() {

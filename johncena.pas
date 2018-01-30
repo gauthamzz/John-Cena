@@ -1,4 +1,4 @@
-program john-cena;
+program johncena;
 
 var
     i : String;
