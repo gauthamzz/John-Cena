@@ -2,23 +2,23 @@
 
 ## About John Cena
 
-The `johncena` command is used to output "NOTHING" forever. :repeat:
+The `johncena` command is used to output "" forever. :repeat: cus you can't see John Cena.
 
 ![johncena](https://media.giphy.com/media/l0HU20BZ6LbSEITza/giphy.gif)
 
 ## Description
 
-The `johncena` command outputs "NOTHING" forever.
+The `johncena` command outputs "" forever.
 
 ![johncena](https://media.giphy.com/media/26n6NdWgS7d8vQAGQ/giphy.gif)
 
-## johncena Syntax
+## John Cena Syntax
 
 ```
-johncena [STRING]...
+johncena 
 ```
 
-## johncena Output
+## John Cena Output
 
 ```
 
@@ -32,7 +32,7 @@ johncena [STRING]...
 .
 ```
 
-## Dangerous johncena
+## Dangerous John Cena
 
 ### Redirecting output to a file
 
