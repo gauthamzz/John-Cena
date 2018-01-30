@@ -5,27 +5,27 @@
 Version - C99
 
 ```shell
-$ gcc -o john-cena john-cena.c
-$ ./john-cena
+$ gcc -o johncena johncena.c
+$ ./johncena
 ```
 
 OR
 
 ```shell
-$ ./john-cena argument list
+$ ./johncena argument list
 ```
 
 ## C++
 
 ```shell
-$ g++ -o john-cena --std=c++11 john-cena.cpp
-$ ./john-cena
+$ g++ -o johncena --std=c++11 johncena.cpp
+$ ./johncena
 ```
 
 OR
 
 ```shell
-$ ./john-cena argument list
+$ ./johncena argument list
 ```
 
 ## Java
@@ -33,125 +33,125 @@ $ ./john-cena argument list
 Version - Java 8
 
 ```shell
-$ javac john-cena.java
-$ java john-cena
+$ javac johncena.java
+$ java johncena
 ```
 
 OR
 
 ```
-$ java john-cena argument list
+$ java johncena argument list
 ```
 
 ## Groovy
 
 ```shell
-$ ./john-cena.groovy
+$ ./johncena.groovy
 ```
 
 OR
 
 ```
-$ ./john-cena.groovy argument list
+$ ./johncena.groovy argument list
 ```
 
 ## Node.js
 
 ```shell
-$ node john-cena.js
+$ node johncena.js
 ```
 
 OR
 
 ```
-$ node john-cena.js argument list
+$ node johncena.js argument list
 ```
 
 ## Objective-C
 
 ```shell
-$ clang -framework Foundation -o john-cena john-cena.m
-$./john-cena
+$ clang -framework Foundation -o johncena johncena.m
+$./johncena
 ```
 
 OR
 
 ```shell
-$ ./john-cena argument list
+$ ./johncena argument list
 ```
 
 ## Vala
 
 ```shell
-$ valac -o john-cena john-cena.vala
-$./john-cena
+$ valac -o johncena johncena.vala
+$./johncena
 ```
 
 OR
 
 ```shell
-$ ./john-cena argument list
+$ ./johncena argument list
 ```
 
 ## R
 
 ```shell
-$ john-cena()
+$ johncena()
 ```
 
 OR
 
 ```shell
-$ john-cena(string argument)
+$ johncena(string argument)
 ```
 
 ## OCaml
 
 ```shell
-$ ocamlopt -o john-cena john-cena.ml
-$ ./john-cena
+$ ocamlopt -o johncena johncena.ml
+$ ./johncena
 ```
 
 OR
 
 ```shell
-$ ./john-cena argument list
+$ ./johncena argument list
 ```
 
 ## Pure Data
 
 ```shell
-$ pd -batch -open john-cena.pd
+$ pd -batch -open johncena.pd
 ```
 
 OR
 
 ```shell
-$ pd -batch -open john-cena.pd -send "_ argument list"
+$ pd -batch -open johncena.pd -send "_ argument list"
 ```
 
 ## Clojure
 
 ```shell
-$ clojure john-cena.clj
+$ clojure johncena.clj
 ```
 
 OR
 
 ```shell
-$ clojure john-cena.clj arguments
+$ clojure johncena.clj arguments
 ```
 
 ## Fortran (90)
 ```shell
-$ gfortran -o john-cena john-cena.f90
-$ ./john-cena
+$ gfortran -o johncena johncena.f90
+$ ./johncena
 ```
 
 OR
 
 ```shell
-./john-cena argument
+./johncena argument
 ```
 
 
@@ -159,11 +159,11 @@ OR
 With the MARS simulator set up:
 
 ```shell
-$ java -jar Mars.jar sm john-cena.s
+$ java -jar Mars.jar sm johncena.s
 ```
 
 OR
 
 ```shell
-.$ java -jar Mars.jar sm john-cena.s pa argument
+.$ java -jar Mars.jar sm johncena.s pa argument
 ```

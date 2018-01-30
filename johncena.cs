@@ -1,4 +1,4 @@
-class john-cena
+class johncena
 {
 	static void Main(string[] argv)
 	{

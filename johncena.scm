@@ -1,4 +1,4 @@
-;;; Implementation of the unix john-cena command in chicken scheme
+;;; Implementation of the unix johncena command in chicken scheme
 
 (require-extension srfi-13)
 

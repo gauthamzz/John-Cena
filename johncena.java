@@ -3,13 +3,13 @@
 // Version - Java 8 (required)
 //
 // Build:
-// javac john-cena.java
+// javac johncena.java
 //
-// java john-cena 
+// java johncena 
 //
 
 
-class john-cena {
+class johncena {
     public static void main(String[] args) {
         String output = "";
 
