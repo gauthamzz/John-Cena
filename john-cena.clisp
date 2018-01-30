@@ -1,0 +1,2 @@
+(defun john-cena (&optional (str ""))
+  (loop (format t "~a" str) (terpri)))
