@@ -2,11 +2,15 @@
 
 ## About John Cena
 
-The `johncena` command is used to output "" forever. :repeat:
+The `johncena` command is used to output `""` forever. :repeat:
 
 Yes, it prints NOTHING (well `/n`).
 
-Why? cus you can't see John Cena. But he is Dangerous.
+Why? 
+
+Coz you can't see John Cena. :stuck_out_tongue:
+
+> But don't you dare underestimate him. He is Dangerous.
 
 ![johncena](https://media.giphy.com/media/l0HU20BZ6LbSEITza/giphy.gif)
 
