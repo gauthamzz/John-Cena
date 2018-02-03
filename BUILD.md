@@ -183,3 +183,10 @@ $ runghc johncena.hs
 ## Brainfuck
 [Click this link to do it online](https://copy.sh/brainfuck/?c=KysrKysrKysrK1suXQ$$)
 (press the run button)
+
+## ArnoldC
+```
+wget http://lhartikk.github.io/ArnoldC.jar
+java -jar ArnoldC.jar johncena.arnoldc
+java johncena
+```
