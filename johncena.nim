@@ -1,9 +1,5 @@
-import os, strutils, sequtils
-
 proc johncena() =
-  var args : string
-
-  args = ""
+  let args = ""
 
   while true:
     echo args
