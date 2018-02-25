@@ -1,19 +1,16 @@
-#include <string>
-#include <vector>
 #include <cstdio>
+#include <cstring>
+#include <string>
+#include "unistd.h"
 
-///////////////////////////////////
-// How to build and execute
-//
-// Build:
-// g++ -o johncena --std=c++11 johncena.cpp
-//
-// ./johncena
+#ifndef _BUF_SZ__
+#define _BUF_SZ__ 1 << 16
+#endif
 
-int main(int argc, char* argv[]) {
-    std::string output;
-    output = "";
-    //while(1) - sometimes it checks if 1==1
-    for(;;)
-        printf("%s\n",output.c_str()); //printf is faster
+int main(int argc, char *argv[]) {
+    std::string data;
+	data.reserve(_BUF_SZ__);
+    while(data.size() < _BUF_SZ__) data.push_back('\n');
+    while(write(STDOUT_FILENO, data.data(), data.size()));
+    return EXIT_FAILURE;
 }
