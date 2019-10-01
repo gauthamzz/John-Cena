@@ -190,3 +190,10 @@ wget http://lhartikk.github.io/ArnoldC.jar
 java -jar ArnoldC.jar johncena.arnoldc
 java johncena
 ```
+
+## BASH
+``` shell
+$ bash johncena.sh
+
+```
+
