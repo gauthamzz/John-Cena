@@ -284,6 +284,17 @@ BUILD-START "D" "johncena.d"
 BUILD-END
 
 # -------------------------------------
+# Dart
+BUILD-START "D" "johncena.d"
+	case "$(BUILD-FIND dart)" in
+		rdmd)
+			dart johncena.dart
+			BUILT true
+			;;
+	esac
+BUILD-END
+
+# -------------------------------------
 # Erlang
 BUILD-START "Erlang" "johncena.escript"
 	BUILD-FAIL "TODO BUILD SCRIPT"
