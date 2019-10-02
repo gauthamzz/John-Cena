@@ -287,7 +287,7 @@ BUILD-END
 # Dart
 BUILD-START "Dart" "johncena.dart"
 	case "$(BUILD-FIND dart)" in
-		rdmd)
+		dart)
 			dart johncena.dart
 			BUILT true
 			;;
