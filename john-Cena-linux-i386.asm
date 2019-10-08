@@ -1,10 +1,10 @@
 section .data
 
-johncena	db	"",	00h
-len	equ	$	-	msg
+	johncena	db	"",	00h
+	len	equ	$	-	msg
 
 section .text
-global main
+	global main
 
 john:
 	mov	eax, 04h
