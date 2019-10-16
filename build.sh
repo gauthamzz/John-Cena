@@ -488,6 +488,17 @@ BUILD-START "Python" "johncena.py"
 BUILD-END
 
 # -------------------------------------
+# Prolog
+BUILD-START "Prolog" "johncena.prolog"
+	case "$(BUILD-FIND swipl)" in
+		swipl)
+			swipl johncena.prolog
+			BUILT true
+			;;
+	esac
+BUILD-END
+
+# -------------------------------------
 # Ruby
 BUILD-START "Ruby" "johncena.rb"
 	case "$(BUILD-FIND ruby)" in
