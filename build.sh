@@ -566,23 +566,6 @@ BUILD-START "Shell" "johncena.sh"
 BUILD-END
 
 # -------------------------------------
-# Swift
-BUILD-START "Swift" "johncena.swift"
-	case "$(BUILD-FIND swift)" in
-		swift)
-			if INTERPRETED-COPY; then
-				BUILT true
-			else
-				INTERPRETED-WRAP swift "${OBJ}/${SRC_FILENAME}" '{$@}' > "${OUT_FILE}"
-				cp "${SRC_FILE}" "${OBJ}/${SRC_FILENAME}"
-				chmod +x "${OUT_FILE}"
-				BUILT TRUE
-			fi
-			;;
-	esac
-BUILD-END
-
-# -------------------------------------
 # Vala
 BUILD-START "Vala" "johncena.vala"
 	case "$(BUILD-FIND valac)" in
