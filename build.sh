@@ -499,6 +499,23 @@ BUILD-START "Prolog" "johncena.prolog"
 BUILD-END
 
 # -------------------------------------
+# Racket
+BUILD-START "Racket" "johncena.rkt"
+	case "$(BUILD-FIND racket)" in
+		racket)
+			if INTERPRETED-COPY; then
+				BUILT true
+			else
+				INTERPRETED-WRAP racket "${OBJ}/${SRC_FILENAME}" '{$@}' > "${OUT_FILE}"
+				cp "${SRC_FILE}" "${OBJ}/${SRC_FILENAME}"
+				chmod +x "${OUT_FILE}"
+				BUILT TRUE
+			fi
+			;;
+	esac
+BUILD-END
+
+# -------------------------------------
 # Ruby
 BUILD-START "Ruby" "johncena.rb"
 	case "$(BUILD-FIND ruby)" in
